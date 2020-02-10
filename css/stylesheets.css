@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+  width: 100;
+}
+
+.row, i {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/*******************
+   NAVBAR
+********************/
+/*navbar*/
+  .navbar-default {
+    background-color: #009688;
+    border: none;
+}
+/*title*/
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #000000;
+}
+/*links*/
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #000000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+}
+/*******************
+   HOME
+********************/
+#home {
+  height: 100%;
+  background:
+    linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ), url("http://res.cloudinary.com/cskywalker/image/upload/v1497049967/david-mao-7091_cujsiu.jpg") ;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#intro {
+  position: relative;
+  top: 50%;
+}
+
+
+
+/*******************
+  ABOUT
+********************/
+
+#about {
+  background: #e7e7e7;
+}
+.about {
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.22);
+}
+
+#d-photo {
+  width: ;
+  height: ;
+}
+
+.quote {
+  background: #373737;
+  color: #ffffff;
+  position: relative;
+  padding: 30px 60px;
+  margin-bottom: 15px;
+  border-left: 6px solid yellow;
+  font:;
+
+}
+
+.progress {
+  height: 10px;
+}
+.progress-bar {
+  border-radius: 20px;
+  background: #009688;
+}
+i {
+  color: #009688;
+}
+#moringa {
+  color: #009688;
+}
+
+/*******************
+   PORTFOLIO
+********************/
+#portfolio li {
+  line-height: 40px;
+}
+
+/*******************
+  FOOTER
+********************/
+footer {
+  background: #009688;
+  color: #ffffff;
+}
